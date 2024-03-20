@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  --background: 255, 255, 255;
+  --highlight: 0, 0, 0;
+  --description: 164, 164, 164;
+}

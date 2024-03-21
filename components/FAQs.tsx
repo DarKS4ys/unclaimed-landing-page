@@ -90,7 +90,7 @@ export default function FAQs() {
   };
 
   return (
-    <div className="flex flex-col mx-auto max-w-7xl gap-10 w-full" id="faqs">
+    <div className="flex scroll-my-20 flex-col mx-auto max-w-7xl gap-10 w-full" id="faq">
       <div className="flex flex-col items-center">
         <h1 className="text-2xl md:text-5xl font-bold">
           Frequently Asked Questions

@@ -32,7 +32,7 @@ export default function Benefits() {
   ];
 
   return (
-    <div className="max-w-6xl mx-auto flex justify-between">
+    <div id='benefits' className="max-w-6xl scroll-my-32 mx-auto flex justify-between">
       <div className="flex flex-col gap-6">
         <h1 className="text-3xl font-bold">Ton of benefits</h1>
         {benefits.map((benefit, index) => (

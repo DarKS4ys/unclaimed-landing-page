@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Footer() {
   return (
-  <div className="bg-hdark mx-auto max-w-8xl w-full text-background p-12 rounded-2xl flex justify-between">
+    <div className="bg-hdark mx-auto max-w-8xl w-full text-background p-12 rounded-2xl flex justify-between">
       <div>
         <h1 className="text-3xl font-semibold">Unclaimed Properties</h1>
         <p>Claim your money.</p>

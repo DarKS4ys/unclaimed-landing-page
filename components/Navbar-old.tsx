@@ -2,8 +2,6 @@
 
 import React, {useState} from 'react';
 import {useMotionValueEvent, useScroll, motion} from "framer-motion";
-import LogoImage from '@/public/hundredllc.png'
-import Image from "next/image";
 import Link from "next/link";
 import {useActiveSectionContext} from "@/context/active-section-context";
 import {clsx} from "clsx";

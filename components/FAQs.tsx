@@ -107,13 +107,13 @@ export default function FAQs() {
             }}
             key={index}
           >
-            <div className="bg-hlight/20 my-4 p-5 md:p-14 rounded-3xl group transition-all duration-500 hover:bg-hlight">
-              <button
-                className="text-[--text] transition-all duration-500 group-hover:text-[--bg] flex justify-between w-full items-center"
-                onClick={() => toggleExpanded(index)}
+            <button onClick={() => toggleExpanded(index)} className="w-full bg-hlight/20 my-4 p-5 md:p-14 rounded-3xl group transition-all duration-500 hover:bg-hlight">
+              <div
+                className="text-text transition-all duration-500 group-hover:text-background flex justify-between w-full items-center"
+                
               >
                 <div className="flex gap-11 items-center">
-                  <h1 className="text-[--green] text-xl font-black transition-all duration-500 group-hover:text-[--bg]">
+                  <h1 className="text-green-500 text-xl font-black transition-all duration-500 group-hover:text-background">
                     {String(index + 1).padStart(2, '0')}
                   </h1>
                   <h1 className="uppercase font-black text-[14px] md:text-3xl">
@@ -122,9 +122,7 @@ export default function FAQs() {
                 </div>
                 <div
                   className={clsx(
-                    `icon ${expandedIndex === index ? 'up' : 'down'}`,
-                    'text-[--highlight]',
-                    'transition-all duration-500 group-hover:text-[--green]'
+                    `group-hover:text-green-500 duration-300 text-hdark transition ${expandedIndex === index && 'rotate-180'}`
                   )}
                 >
                   {expandedIndex === index ? (
@@ -133,17 +131,17 @@ export default function FAQs() {
                     <MdOutlineArrowOutward size={40} />
                   )}
                 </div>
-              </button>
+              </div>
               <div
-                className={`answer-container ${
-                  expandedIndex === index ? 'expanded' : ''
+                className={`max-h-[0px] overflow-hidden transition-all duration-500 ease-in-out ${
+                  expandedIndex === index && 'max-h-[200px]'
                 }`}
               >
-                <p className="mt-6 text-[#858585] transition-all duration-500 group-hover:text-[--bg]">
+                <p className="mt-6 text-[#858585] transition-all duration-500 group-hover:text-background">
                   {faq.answer}
                 </p>
               </div>
-            </div>
+            </button>
           </motion.div>
         ))}
       </div>

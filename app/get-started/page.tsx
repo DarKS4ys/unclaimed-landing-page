@@ -13,7 +13,7 @@ const features = [
   "Transparent Process and No Hidden Fees",
 ]
 
-export default function () {
+export default function Page() {
   return (
     <div className='max-w-6xl mx-auto'>
         <div className='h-60 p-16 rounded-t-xl mt-40 w-full bg-hlight/10 clip-path'>

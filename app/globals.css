@@ -81,5 +81,5 @@
 }
 
 .answer-container.expanded {
-  max-height: 200px; /* Set a fixed max height for the answer container */
+  max-height: 200px;
 }

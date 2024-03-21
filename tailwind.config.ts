@@ -18,6 +18,9 @@ const config = {
       },
     },
     extend: {
+      maxWidth: {
+        '8xl': '1366px',
+      },
       colors: {
         background: "rgba(var(--background))",
         text: "rgba(var(--text))",

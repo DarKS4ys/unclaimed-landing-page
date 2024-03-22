@@ -15,10 +15,10 @@ const features = [
 
 export default function Page() {
   return (
-    <div className='max-w-6xl mx-auto'>
-        <div className='h-60 p-16 rounded-t-xl mt-40 w-full bg-hlight/10 clip-path'>
-            <h1 className="text-5xl text-sky-900 font-bold">Unlock Your Unclaimed Wealth</h1>
-            <h2 className="text-xl text-sky-950 font-medium">Your journey to reclaiming forgotten assets starts here.</h2>
+    <div className='max-w-6xl mx-auto p-8'>
+        <div className='h-60 p-16 rounded-t-xl w-full bg-hlight/10 clip-path'>
+            <h1 className="text-4xl xl:text-5xl text-sky-900 font-bold">Unlock Your Unclaimed Wealth</h1>
+            <h2 className="text-lg xl:text-xl text-sky-950 font-medium">Your journey to reclaiming forgotten assets starts here.</h2>
         </div>
 
       <div className='flex gap-x-8 max-w-5xl mx-auto p-12'>

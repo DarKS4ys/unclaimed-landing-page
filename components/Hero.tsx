@@ -9,7 +9,7 @@ export default function Hero() {
         <h1 className="text-6xl font-semibold">
           Reclaim what&apos;s yours.
           <br />
-          <mark className="bg-gradient-to-r from-hdark via-hlight to-hlight inline-block text-transparent font-semibold bg-clip-text pb-4">
+          <mark className="bg-gradient-to-r from-hdark via-hlight to-hlight/80 inline-block text-transparent font-semibold bg-clip-text pb-4">
             Effortlessly and securely.
           </mark>
         </h1>

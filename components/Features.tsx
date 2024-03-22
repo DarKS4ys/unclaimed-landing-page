@@ -32,7 +32,7 @@ export default function Features() {
   return (
     <div className="max-w-7xl mx-auto bg-hdark rounded-xl p-10 py-32 relative">
       {/* <div className="absolute inset-0 w-full h-full pattern"/> */}
-      <div className="text-white text-center relative z-20 m-auto w-fit">
+      <div className="text-white text-center relative z-20 m-auto space-y-2 w-fit">
         <h1 className="text-4xl font-semibold">
           In the U.S. alone, billions of dollars in <br /> unclaimed property
           lie dormant...
